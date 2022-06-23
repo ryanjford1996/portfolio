@@ -1,0 +1,32 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}My Portfolio{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="static/css/styles.css">
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <ul class="nav">
+    <li class="nav-item">
+      <p>Ryan Ford</p>
+    </li>
+    <li class="nav-item justify-content-end">
+      <a class="nav-link" href="#">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Resumé</a>
+    </li>
+  </ul>
+</div>
+
+<div class="jumbotron text-center">
+  <div class="container-fluid">
+    <h1 class="display-4">Ryan Ford Portfolio</h1>
+  </div>
+</div>
+
+{% endblock %}
