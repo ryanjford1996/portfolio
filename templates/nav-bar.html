@@ -1,0 +1,29 @@
+<div class="container sticky-top">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a href="{{ url_for('home') }}" class="navbar-brand">Ryan Ford</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#toggleMobileMenu"
+          aria-controls="toggleMobileMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav justify-content-end">
+            <li>
+              <a class="nav-link" href="{{ url_for('showResume') }}">Resume</a>
+            </li>
+            <li>
+              <a class="nav-link" href="{{ url_for('showProjects') }}">Projects</a>
+            </li>
+            <li>
+              <a class="nav-link" href="{{ url_for('contact') }}">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>

@@ -1,5 +1,33 @@
+.sticky-top {
+    background: white;
+}
 
-nav {
-   position: fixed;
-   top: 0px;
+img.professional-pic {
+    border-radius: 50%;
+}
+
+.btn-dark:hover {
+    color: white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.card-hr {
+    margin: auto;
+    width: 50px;
+}
+
+.card-text {
+    margin: 0.5rem 0;
+}
+
+.card-body {
+    padding: 0 16px 16px 16px;
+}
+
+.card-subtext {
+    font-size: 1rem;
 }
