@@ -12,18 +12,24 @@
 <body>
    {% include 'nav-bar.html' %}
 
-    <section class="py-5 text-center container">
-            <div>
-                <div class="py-lg-6 py-md-8 mx-auto">
-                    <div class="col-lg-6 col-md-8 mx-auto">
-                        <h1 class="fw-light">About Me.</h1>
-                        <hr>
-                        <p class="lead text-muted">Physical Therapist and self taught Software Developer interested
-                        in the intersection of healthcare and technology.</p>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="d-flex d-flex flex-wrap py-5 justify-content-around align-items-center">
+            <div class="col-md-6 text-center">
+                <img class='professional-pic' src="/static/images/avatar.jpeg" alt="professional-pic" width="300px" height="380px">
             </div>
-        </section>
+            <div class="col-md-6 text-center">
+                <h1 class="fw-light">About Me</h1>
+                <hr>
+                <p class="lead text-muted"><em>Doctor of Physical Therapy<br>Software Developer</em></p>
+                <br>
+                <p class="lead text-muted">I am an Inpatient Acute Physical Therapist looking to enter into the field of
+                Software Development. I have a Bachelors degree in Biology from Texas Tech University and
+                a clinical Doctorate in Physical Therapy from UT Southwestern. My experience in the hospital has made
+                me an excellent team player and seek out new challenges, leading me to developing a passion for
+                coding and software.</p>
+            </div>
+        </div>
+    </div>
 
 
 

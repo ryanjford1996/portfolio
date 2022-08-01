@@ -31,3 +31,8 @@ img.professional-pic {
 .card-subtext {
     font-size: 1rem;
 }
+
+p.card-text.card-subtext {
+    height: 72px;
+    justify-content: center;
+}

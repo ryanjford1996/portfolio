@@ -26,10 +26,6 @@ def contact():
 def showProjects():
     return render_template('projects.html', todayYear=todayYear)
 
-@app.route('/resume')
-def showResume():
-    return render_template('my-resume.html', todayYear=todayYear)
-
 def send_mail(name, email, phone, message):
     email_message = f'Subject:New Message on your Website\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nMessage: {message}'
     with smtplib.SMTP("smtp.mail.yahoo.com", port=587) as connection:
