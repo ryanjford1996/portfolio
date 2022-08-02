@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request
 import datetime
 import smtplib
+import os
 
-EMAIL = 'datigerace@yahoo.com'
-PASSWORD = 'irclovgwmytvoazb'
+EMAIL = os.environ.get('MYEMAIL')
+PASSWORD = os.environ.get('MYPASS')
 todayYear = datetime.datetime.now().year
 
 app = Flask(__name__)
